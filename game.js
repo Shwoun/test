@@ -192,7 +192,7 @@ function update() {
     } else if (control.right.isDown) {
         player.setVelocityX(300);
     } else {
-        player.setVelocityX(0);
+        player.setVelocityX(380);
     }
 
     // Keyboard double jump
